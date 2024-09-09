@@ -1,10 +1,40 @@
 h1.welcome {
-    background-color: rgb(130, 156, 34);
+    background-color: rgba(17, 74, 218, 0.515);
     padding: 5px;
     margin:5px;
     border: 2px solid red;
     border-radius: 5px;
 }
 h1.welcome:hover {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.505);
+}
+#aboutme {
+    color:white;
+    float:left;
+    width:48%; 
+    border:2px solid white;
+    border-radius: 7px;
+    font-size: 4vw;
+    background-color: rgba(123, 203, 19, 0.37);
+    height: 100%;
+}
+#myskills {
+    float:right;
+    color:white;
+    width: 49%;
+    border:2px solid white;
+    border-radius: 7px;
+    font-size: 4vw;
+    height: 100%;
+    background-color: rgba(123, 203, 19, 0.37);
+}
+#projects {
+    border:2px solid white;
+    width:100%;
+    color:white;
+}
+@media screen  and (max-width:600px) {
+    #aboutme, #myskills {
+        width:100%;
+    }
 }

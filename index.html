@@ -2,22 +2,40 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-size=1.0" />
         <title>My Resume</title>
         <link rel="stylesheet" href="mypage.css">
     </head>
-    <body>
+    <body style="background-image: url('images/bg.jpg');background-size: 100%;background-repeat: no-repeat;padding: 50px;">
         <header>
             <div style="width:100%;">
                 <div style="text-align: center;font-size: larger;width: 100%;">
                     <h1 class="welcome">Welcome to my Page</h1>
                 </div>
-                <div style="padding: 10px;">
-                    <span style="float:left; width:50%; border:2px solid black;border-radius: 5px;padding-bottom: 4vw;font-size: 4vw;">
-                        <h3>About Me</h3>
-                        I am Vedansh Shukla a CSE Student studying in IIIT Nagpur (currently in First Year)
+                <div style="padding: 1vw;">
+                    <span id="aboutme">
+                        <h3 style="text-align: center;">About Me</h3>
+                        <hr>
+                        <p style="font-family: 'Courier New', Courier, monospace;">I am Vedansh Shukla a CSE Student studying in <b>IIIT Nagpur</b> (currently in First Year)</p>
+                    </span>
+                    <span id="myskills">
+                        <h3 style="text-align: center;">My Skills</h3>
+                        <hr>
+                        <ul style="font-family: 'Courier New', Courier, monospace;">
+                            <li>Python</li>
+                            <li>HTML + CSS</li>
+                            <li>C</li>
+                            <li>DSA</li>
+                            <li>Web Dev</li>
+                        </ul>
                     </span>
                 </div>
             </div>
         </header>
+        <section>
+            <div id="project">
+                <h2></h2>
+            </div>
+        </section>
     </body>
 </html>
